@@ -1,0 +1,4 @@
+resources/base.class
+Academy/EndtoEnd_project/App.class
+pageobject/loginpage.class
+pageobject/landingpage.class

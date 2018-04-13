@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+<listeners>
+<listener class-name="Academy.EndtoEnd_project.Listeners"/>
+</listeners>
+
+<test name ="validating user login" parallel="false">
+  
+    <classes>
+      <class name="Academy.EndtoEnd_project.Validatetitle"/>
+      </classes>
+      
+     </test>
+     
+   <test name="App Test" parallel="false">
+     <classes>
+     <class name ="Academy.EndtoEnd_project.App"/>
+     </classes>
+     </test>
+     
+     <test name ="Homepage validation" parallel="false">
+     <classes>
+     <class name="Academy.EndtoEnd_project.Homepage"/>
+     </classes>
+     
+     
+      
+  <!-- Test -->
+ 	</test>
+ 	</suite><!-- Suite -->
